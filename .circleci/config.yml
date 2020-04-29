@@ -10,7 +10,7 @@ jobs:
     docker: 
       - image: circleci/node:4.8.2 # the primary container, where your job's commands are run
     steps:
-      - checkout # check out the code in the project directory
+      - checkout # check out the code in the project directory.
       - run: echo "Double Trouble" # run the `echo` command
 workflows:
   version: 2.1
